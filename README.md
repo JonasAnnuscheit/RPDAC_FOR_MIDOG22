@@ -7,7 +7,7 @@ This paper describes our contribution to the MIDOG 2022 challenge for detecting 
 MIDOG 22 contribution, mitosis detection, Domain Adaption Classifier, Stain Augmentation, Test Time Augmentation
 
 
-# Neural_Network_Architecture
+# Neural Network Architecture
 asd asd asd as das sa dsa dds a
 asd asd asd as das sa dsa dds a
 asd asd asd as das sa dsa dds a
