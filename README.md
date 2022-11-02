@@ -12,51 +12,7 @@ This paper describes our contribution to the MIDOG 2022 challenge for detecting 
 
 
 # Neural Network Architecture
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
-asd asd asd as das sa dsa dds a
+The neural network architecture can be found [here](https://github.com/JonasAnnuscheit/RPDAC_FOR_MIDOG22/blob/main/Original_Source/models/MYyolov5s0.1concatT.yaml)
 
 # Something Some
 asd asd asd as das sa dsa dds a
