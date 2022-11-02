@@ -1,0 +1,11 @@
+runs/
+MIDOG/
+/wandb/
+.git/
+.github/
+.ipynb_checkpoints/
+*__pycache__*
+*.png
+*.jpg
+*.pt
+*.ipynb

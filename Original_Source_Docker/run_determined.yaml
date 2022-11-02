@@ -1,0 +1,25 @@
+name: final_6_rgb_DA_lrvl
+description: final_6_rgb_DA_lrvl
+resources:
+  slots_per_trial: 1
+  max_slots: 10
+  agent_label: pepper-cluster
+# Docker container used
+environment:
+  image:
+    cpu: "deepprojects/determined-pytorch-1.12-cpu:1.0.1"
+    gpu: "deepprojects/determined-cuda-113-pytorch-1.12-gpu:1.0.0"
+# Bind Avocado into the docker container
+bind_mounts:
+ - host_path: /data/ldap
+   container_path: /data/ldap
+   read_only: false
+searcher:
+   name: single
+   max_length: 1
+   metric: val_loss
+max_restarts: 0
+entrypoint: python train.py --name final_6_rgb_DA_lrvl --img 1280 --batch 12 --epochs 500 --data data/midog_only_mitosis_dt_all_small_TEST.yaml --cfg models/MYyolov5s0.1concatT.yaml --optimizer AdamW --workers=12 --hyp data/hyps/hyp.mitosis_noda.yaml --cos-lr --label-smoothing 0.02 --noval 10 --patience 1000 --project /data/ldap/jonas/MIDOG_YOLO_RUNS/train2 --weights /data/ldap/jonas/MIDOG_YOLO_RUNS/train2/final_1_rgb_noDA_prototypeloss/weights/best.pt --seed 8778900
+#--image-weights
+#entrypoint: python train.py --name RPL1_0.0_0.2_0.1_largerLR --img 1280 --batch 8 --epochs 1000 --data data/midog_only_mitosis_dt_samedomain.yaml --cfg models/MYyolov5s0.0.yaml --optimizer AdamW --image-weights --workers=12 --hyp data/hyps/hyp.mitosis_noda.yaml --cos-lr --label-smoothing 0.02 --seed 612 --noval 10 --weights yolov5s --patience 1000 --project /data/ldap/jonas/MIDOG_YOLO_RUNS/train
+#entrypoint: python train.py --name TEST --img 1280 --batch 8 --epochs 2 --data data/midog_only_mitosis_dt_samedomain.yaml --cfg models/MYyolov5s0.5.yaml --optimizer AdamW --image-weights --workers=12 --hyp data/hyps/hyp.mitosis_noda.yaml --cos-lr --label-smoothing 0.02 --seed 612 --noval 10 --weights /data/ldap/jonas/MIDOG_YOLO_RUNS/train/EXP1_RGB_0.3_0.3_0.3_0.02/weights/best.pt --patience 1000 --project /data/ldap/jonas/MIDOG_YOLO_RUNS/train
