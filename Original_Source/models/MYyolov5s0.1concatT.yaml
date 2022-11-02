@@ -55,7 +55,7 @@ da:
    [23, 1, nn.Upsample, [None, 4, 'nearest']], # 26
 
    [[17, 25, 26], 1, Concat, [1]],  #27 cat head P5 ; Should be [bs,192+384+768,128,128]
-   [-1, 1, GradReverse, [0.1]], #28
+   [-1, 1, GradReverse, [0.1]], #28 #This Layer is not used as GradReverse-Layer, but multiply the gradient with 0.1.
    [-1, 1, Conv, [64, 1, 1]], # 29 => 64x64
    [-1, 1, Conv, [56, 3, 2]], # 30 => 64x64
    [-1, 1, Conv, [48, 3, 2]], # 31 => 32x32
