@@ -27,3 +27,7 @@ The source code for the DA can be found [here](https://github.com/JonasAnnuschei
 
 # Contact
 If you have any questions, contact me at jonas.annuscheit@htw-berlin.de.
+
+# Acknowledgements
+The authors acknowledge the financial support by the Federal Ministry of Education and Research of
+Germany (BMBF) in the project deep.Health (project number 13FH770IX6).
